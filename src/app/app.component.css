@@ -1,0 +1,11 @@
+  .button-text {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .right-align {
+    display: flex;
+    justify-content: flex-end;
+  }
