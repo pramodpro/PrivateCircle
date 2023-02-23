@@ -8,11 +8,15 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
 import {MatListModule} from '@angular/material/list';
+import { CompanyDescriptionComponent } from './components/company-description/company-description.component';
+import { CompanyListComponent } from './components/company-list/company-list.component';
 
 @NgModule({
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   declarations: [
-    AppComponent
+    AppComponent,
+    CompanyListComponent,
+    CompanyDescriptionComponent
   ],
   imports: [
     MatTableModule,

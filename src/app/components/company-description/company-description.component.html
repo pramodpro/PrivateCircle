@@ -1,0 +1,8 @@
+<mat-card class="bg-gray-100 m-4" *ngIf="descriptionList?.length==0">
+    <mat-card-content > no description yet
+      <button mat-button class="text-sky-900">+ Add description</button>
+       </mat-card-content>
+  </mat-card>
+  <mat-list *ngFor="let i of descriptionList">
+    <mat-list-item class="text-sky-900">{{i}}</mat-list-item>
+   </mat-list>
